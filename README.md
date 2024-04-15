@@ -1,5 +1,5 @@
 # Spoon2568.github.io
-``C++
+
 vector<Position> findShortestPathUsingDijkstra(const Position& start, const Position& end, int currentPlayer){
     vector<vector<int>> distances(SIZE, vector<int>(SIZE, INFINITY));
     set<Position> visited;
@@ -47,4 +47,3 @@ vector<Position> findShortestPathUsingDijkstra(const Position& start, const Posi
         reverse(path.begin(), path.end());
         return path;
 }
-``
